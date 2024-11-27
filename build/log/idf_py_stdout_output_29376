@@ -1,0 +1,5 @@
+[1/4] cmd.exe /C "cd /D C:\Users\13202\BLEGATT\4951WProject\gatt_server_service_table\build\esp-idf\esptool_py && C:\Users\13202\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/Users/13202/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/13202/BLEGATT/4951WProject/gatt_server_service_table/build/partition_table/partition-table.bin C:/Users/13202/BLEGATT/4951WProject/gatt_server_service_table/build/gatt_server_service_table_demo.bin"
+gatt_server_service_table_demo.bin binary size 0xbce60 bytes. Smallest app partition is 0x100000 bytes. 0x431a0 bytes (26%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\13202\BLEGATT\4951WProject\gatt_server_service_table\build\bootloader\esp-idf\esptool_py && C:\Users\13202\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/Users/13202/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/13202/BLEGATT/4951WProject/gatt_server_service_table/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
